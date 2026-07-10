@@ -88,3 +88,84 @@ Then questions / comments / discussion.
     - AlphaFold mapping
 
 - MCB course, HD-MA symposium, science slam, ELIXIR TTT
+
+---
+# ndtbl
+
+- *Project type:* bwRSE4HPC
+- *Description:* Fast and memory-efficient lookup in high-dimensional tables
+- *Developer time:* 3 PM
+- *People:* Thomas
+- *Techstack:* C++ / Python
+- *Topic:* Feature development
+
+---
+# ndtbl: shared-memory
+<style scoped>
+.figure-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 16px;
+  height: 550px;
+  align-items: center;
+}
+
+.figure-grid img {
+  width: 65%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.figure-grid .right {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+</style>
+
+<div class="figure-grid">
+  <img src="ndtbl-2.png">
+  <img class="right" src="ndtbl-1.svg">
+  <img src="ndtbl-3.png">
+</div>
+
+---
+
+# Turbine Design System
+
+- *Project type:* bwRSE4HPC
+- *Description:* Provide a reusable Python orchestration layer for their workflows
+- *Developer time:* 1.5 PM
+- *People:* Thomas
+- *Techstack:* Python (some C++)
+- *Topic:* Python packaging, best practices, reproducibility
+
+---
+
+# Turbine Design System
+Left: not optimized, Right: optimized
+![width:750px](tds-1.png)
+
+- Optimization of blade geometry (or any geometry submerged in a flow)
+- Island model: launch many candidiates, each with a CFD simulation, exchange information
+- Python "code" uses bindings to dtOO, an old-school C++ code
+- No reproducible installation (copy paste code), no dependency management, no package
+
+---
+
+# py4dgeo
+
+- *Project type:* Open Call 2021/22, now externally funded
+- *Description:* Change analysis of three-dimensional point cloud time series
+- *Developer time:* 2 PM / year + extras
+- *People:* Dominic, Dimitrii, Thomas + former members Petr, Alex
+- *Techstack:* Python / C++ (pybind11)
+- *Topic:* Feature development, maintenance
+
+---
+
+# py4dgeo: Change Analysis
+- Laser scanning (Lidar) used to acquire point clouds of scenes
+- Automated analysis and change quantification of time series of point clouds
+- Quantitatively understanding geomorphological processes
+![width:550px](py4dgeo-1.png)
