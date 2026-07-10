@@ -2,57 +2,40 @@
 marp: true
 theme: ssc
 paginate: true
-title: Course Slides Template
-description: SSC Compact Course
+title: SSC Project Overview 2026.07.21
 ---
 
 <!-- _class: title -->
 <!-- _paginate: false -->
-<!-- _footer: "Last updated: 2026-05-26" -->
 
-# Course Slides Template
+# SSC Project Overview
 
-## A Person, SSC
-
----
-
-# Slide title
-
-Slide content is just normal markdown. Lists using `*` are displayed one by one, e.g:
-
-* First point
-* Second point
+## 2026.07.21
 
 ---
 
-# Images
+# Format
 
-The alt text for images can be used to set the size, etc. See [marpit.marp.app/image-syntax](https://marpit.marp.app/image-syntax)
+For each project we have two slides
 
-The url can be a local file if that file is added to this folder, or a remote url.
+- one slide with a fixed format for every project
+- another slide with anything the presenter wants to present
 
-For example `![width:600px drop-shadow](https://backend.ssc.uni-heidelberg.de/sites/default/files/site_logo/WEB%20Kopfgrafik%20Scientific-Software-Center%20KURZ_neu.svg)`:
-
-![width:600px drop-shadow](https://backend.ssc.uni-heidelberg.de/sites/default/files/site_logo/WEB%20Kopfgrafik%20Scientific-Software-Center%20KURZ_neu.svg)
-
----
-
-![bg left:33%](https://picsum.photos/720?image=27)
-
-# Background images
-
-Background images can also be added.
-
-For example this slide has `![bg left:33%](https://picsum.photos/720?image=27)`, where the background image takes up 33% of the slide on the left, and the rest of the space is used for the slide contents.
-
-See [marpit.marp.app/image-syntax](https://marpit.marp.app/image-syntax) for more details.
+Then questions / comments / discussion.
 
 ---
 
-# Navigation
+# SEVN
 
-- `right` or `down` or `spacebar` to go to next slide
-- `left` or or `up` or shift+spacebar` to go to previous slide
-- `f` to toggle full screen
-- `o` or `esc` to toggle overview
-- `p` open presenter view
+- *Project type:* Open Call
+- *Description:* Astrophysics simulation code for binary stars
+- *Developer time:* 4 PM
+- *People:* Liam
+- *Techstack:* C++ / Python / wasm
+- *Topic:* Performance Engineering
+
+---
+
+# SEVN Performance Engineering
+
+![width:900px](sevn.png)
