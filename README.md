@@ -2,9 +2,9 @@
 
 [![slides](https://ssciwr.github.io/project-overview-slides/slides-thumb.png)](https://ssciwr.github.io/project-overview-slides)
 
-[Download as PDF](https://ssciwr.github.io/project-overview-slides/slides.pdf)
+## To add your project
 
-To add your project, copy and paste this markdown, add it to the end of slides/index.md, then edit:
+Copy and paste this markdown, add it to the end of slides/index.md, then edit:
 
 ```
 ---
@@ -22,7 +22,7 @@ To add your project, copy and paste this markdown, add it to the end of slides/i
 
 # My Project screenshot
 
-![width:600px](body-eye-sync.jpg)
+![width:600px](sevn.png)
 
 ```
 
