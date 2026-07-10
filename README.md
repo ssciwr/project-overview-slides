@@ -1,6 +1,10 @@
-# Project Update Slides
+# Project Overview Slides
 
-To add your project, copy and paste this markdown at the end of slides/index.md, then edit:
+[![slides](https://ssciwr.github.io/project-overview-slides/slides-thumb.png)](https://ssciwr.github.io/project-overview-slides)
+
+[Download as PDF](https://ssciwr.github.io/project-overview-slides/slides.pdf)
+
+To add your project, copy and paste this markdown, add it to the end of slides/index.md, then edit:
 
 ```
 ---
@@ -23,12 +27,6 @@ To add your project, copy and paste this markdown at the end of slides/index.md,
 ```
 
 The first slide should follow the above format, the second slide can be anything.
-
-## Slides
-
-[![slides](https://ssciwr.github.io/project-overview-slides/slides-thumb.png)](https://ssciwr.github.io/project-overview-slides)
-
-[Download as PDF](https://ssciwr.github.io/project-overview-slides/slides.pdf)
 
 ## Marp
 

@@ -25,6 +25,12 @@ Then questions / comments / discussion.
 
 ---
 
+<!-- _class: subtitle -->
+
+# Current SSC Projects
+
+---
+
 # SEVN
 
 - *Project type:* Open Call
