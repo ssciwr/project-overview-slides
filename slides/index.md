@@ -45,3 +45,20 @@ Then questions / comments / discussion.
 # SEVN Performance Engineering
 
 ![width:900px](sevn.png)
+
+---
+
+# body-eye-sync
+
+- *Project type:* Open Call
+- *Description:* GUI to synchronise video and audio inputs and track mutual gaze of participants
+- *Developer time:* 4 PM
+- *People:* Tuyen, James, Liam
+- *Techstack:* Python
+- *Topic:* Feature development
+
+---
+
+# body-eye-sync object tracking
+
+![width:600px](body-eye-sync.jpg)
