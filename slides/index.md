@@ -79,16 +79,12 @@ Then questions / comments / discussion.
 
 ![bg left:40% contain](bsh_map.png)
 
-<div style="margin-left:45%">
-
 - over 20 requests / projects
-- new tutorials / notebooks: 
+- new tutorials / notebooks:
     - antibody / protein generation
-    - molecular dynamics 
-    - protein-protein interaction 
+    - molecular dynamics
+    - protein-protein interaction
     - bwVisu to Helix transition
     - AlphaFold mapping
 
 - MCB course, HD-MA symposium, science slam, ELIXIR TTT
-
-</div>
