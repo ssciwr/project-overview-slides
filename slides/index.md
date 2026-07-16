@@ -169,3 +169,29 @@ Left: not optimized, Right: optimized
 - Automated analysis and change quantification of time series of point clouds
 - Quantitatively understanding geomorphological processes
 ![width:550px](py4dgeo-1.png)
+
+---
+
+# ACID
+
+- *Project type:* Open Call, former small scale
+- *Description:* Microscopy image analysis pipeline
+- *Developer time:* 2 PM + 
+- *People:* Christine, Edwin, Kai, Tomáš (CZ)
+- *Techstack:* Python / Jupyter Notebooks
+- *Topic:* Python packaging, best practices, reproducibility
+
+---
+
+# ACID
+current status: 
+- pipeline as a series of Jupyter notebooks
+- python modules exists
+- no testing
+- limited documentation 
+
+goals:
+- introduce testing on pipeline level
+- clean up notebooks and modules
+- one notebook as minimal documentation
+- run notebook / package on HPC
