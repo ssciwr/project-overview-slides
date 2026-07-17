@@ -361,3 +361,41 @@ goals:
 
 ---
 
+# ECPO (Early Chinese Periodicals Online)
+
+- *Project type:* Open Call (2025)
+- *Description:* An open-source AI pipeline for layout segmentation and OCR of Early Chinese Periodicals
+- *Developer time:* 5 PM
+- *People:* Dominic, Tuyen, Harald
+- *Techstack:* Python / C++ / VLMs
+- *Topic:* Feature development
+
+---
+
+# Current pipeline and potential follow-ups
+- Current pipeline:
+`IMGs` $\rightarrow$ `Layout seg. with Eynollah` $\rightarrow$ `Seg. refinement with PaddleOCR` $\rightarrow$ `OCR with VLM`
+
+<style scoped>
+.image-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 0px;
+  align-items: center;
+}
+
+.image-row img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+</style>
+
+<div class="image-row">
+  <img src="OCR-D-EYNOLLAH-PADDLE-1k-1000_7ov10.png" alt="Papyrus">
+  <img src="OCR-D-TEXT2-1000_OCR.png" alt="Transcription">
+</div>
+
+- Potential follow-ups: a DFG-funded project and collaboration with the Staatsbibliothek zu Berlin (SBB)
+
