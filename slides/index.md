@@ -275,3 +275,89 @@ goals:
   <img src="architecture.png" alt="Architecture overview">
   <img src="team_roles.png" alt="Team roles overview">
 </div>
+
+---
+
+# papyri-assistant
+
+- *Project type:* Open Call
+- *Description:* RAG system for digital papyrology
+- *Developer time:* 4 PM
+- *People:*
+  * SSC: Dominic, Harald, Sara (Prague)
+  * Papyrology: Holger Essler, James Cowey, Carmen Lanz
+- *Techstack:* Python / Web / PostGres / langchain
+- *Topic:* Retrieval Augemented Generation
+
+---
+
+# papyri-assistant
+
+<style scoped>
+.image-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.image-row img {
+  width: 100%;
+  height: 460px;
+  object-fit: contain;
+}
+</style>
+
+<div class="image-row">
+  <img src="papyri1.png" alt="Papyrus">
+  <img src="papyri2.png" alt="Transcription">
+</div>
+
+---
+
+# CORSES
+
+- *Project type:* Funded by DFG
+- *Description:* Nation-wide RSE Support
+- *Developer time:* 30 PM
+- *People:*
+  * SSC PI: Dominic
+  * Other PIs: Jan Linxweiler, Robert Speck, Mustafa Dogan
+  * potentially all SSC RSES
+- *Techstack:* all of them
+
+---
+
+# CORSES
+
+- Make SSC-like services available to researchers from all Germany
+- Pool expertise from multiple existing teams
+- We do lead this RSE Pool
+- Exact services t.b.d. but most likely
+  - Consultation
+  - Small Scale or extended small scale projects
+- Could be a very interesting source of projects
+
+---
+
+# project-W
+
+- *Project type:* Small scale/Hiwi Project
+- *Description:* On premise audio transcription platform
+- *Developer time:* 18 HM (Hiwi months)
+- *People:* Julian, Dominic
+- *Techstack:* Python, Svelte, Postgres
+
+---
+
+# project-W
+
+- Quite mature platform
+- Currently hosted by URZ
+- Future unclear
+
+<img src="projectw.png" alt="Project-w">
+
+---
+
