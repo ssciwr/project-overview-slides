@@ -195,3 +195,83 @@ goals:
 - clean up notebooks and modules
 - one notebook as minimal documentation
 - run notebook / package on HPC
+
+---
+
+# BioCypher
+
+- *Project type:* Funded
+- *Description:* Build knowledge graphs from unstructured and inhomogeneous omics data
+- *Developer time:* ~25 (22) + 12 (6) PM
+- *People:* Edwin, James, Inga
+- *Techstack:* Python / React / MCP 
+- *Topic:* Research Software Infrastucture for different domains
+
+---
+
+# BioCypher components registry
+
+![bg right:45% contain](bcr.png)
+
+- BioCypher adapter: A piece of code + configuration files + schema + ontology that makes your data ingestable for BioCypher, to turn it into a knowledge graph
+- Registry: 
+  - Register existing adapters and allow re-use
+  - Croissant + BioSchema metadata for data + adapter
+  - Make it easier for users to build their own adapter: Agentic Workspace (MCP + Chat + File Editor)
+
+---
+
+# TRAIN 
+
+- *Project type:* Open Call
+- *Description:* Make it easier for researchers and students to use the TRAIN hydrological model (written in Fortran), prepare model for publication
+- *Developer time:* ~2 (0) PM
+- *People:* Inga
+- *Techstack:* Fortran / Python / `magicgui`
+- *Topic:* Usability, refactoring, best practices
+
+---
+
+# TRAIN purpose and interface
+
+![bg right:35% contain](train_input.png)
+
+- Model can run with minimal metereological data, but if more data is available (ie. land use, more precise measurements) it can be used in the modelling, which is rooted in the modular design of the model
+- Addition of new input parameters cumbersome in Fortran, both for the model and the interface
+- Model shall be published open-source
+
+---
+
+# heiplanet-platform 
+
+- *Project type:* Funded
+- *Description:* Web interface to show climate-health model predictions for models developed in the Rockloev group
+- *Developer time:* ~6 (6) PM
+- *People:* Tuyen, Harald, Edwin, James, Inga
+- *Techstack:* Python / React / FastAPI / postgres
+- *Topic:* Refactoring, Research Software Infrastructure, Usability, Stakeholder Engagement
+
+---
+
+# heiplanet-platform 
+
+<style scoped>
+.image-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.image-row img {
+  width: 100%;
+  height: 460px;
+  object-fit: contain;
+}
+</style>
+
+<div class="image-row">
+  <img src="architecture.png" alt="Architecture overview">
+  <img src="team_roles.png" alt="Team roles overview">
+</div>
