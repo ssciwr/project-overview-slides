@@ -294,6 +294,14 @@ goals:
 
 ---
 
+<!--
+_backgroundImage: 'url("biocypher2.png")'
+_backgroundSize: contain
+_backgroundPosition: center bottom 5%
+-->
+
+---
+
 # TRAIN
 
 - *Project type:* Open Call
@@ -550,3 +558,23 @@ Updating feedback algorithms and other small features on [mondey.de](https://mon
 Video (with audio support for a deeper context) and Image Summarization and VQA were implemented, as well as multimodal search module.
 
 ![width:900px](ammico.png)
+
+---
+
+# Helios++
+
+- *Project type:* Externally Funded (2024-2027)
+- *Description:* A  package for simulation of terrestrial, mobile and airborne laser scanning surveys
+- *Developer time:* 6 PM / year for 3 years
+- *People:* Dominic, Thomas, Dmitrii
+- *Techstack:* Python / C++ / pybind11
+- *Topic:* System Architecture / API Design, Feature development
+
+---
+
+# Helios++
+
+Overall, we've implemented most of the intended functionality (and added a lot more on top of that).
+There are still a few tasks left to tackle before the release.
+
+![width:700px](helios_2026.png)
