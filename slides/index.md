@@ -512,3 +512,22 @@ from series of clusterings on point-based data:
 ![width:600px, height:200px](fuzzycat_explained.png)
 
 *[images taken from fuzzycat official documentation at https://fuzzycat.readthedocs.io/en/latest/intro.html]*
+
+---
+
+# MONDEY
+
+- *Project type:* Funded (2024 open call follow-up)
+- *Description:* Minor modifications to the mondey.de web service
+- *Developer time:* 1 PM
+- *People:* James / Liam
+- *Techstack:* Typescript (svelte) / Python (fastapi) / Postgres / Docker
+- *Topic:* Feature development
+
+---
+
+# MONDEY
+
+Updating feedback algorithms and other small features on [mondey.de](https://mondey.de), before the website is used in a study starting in August involving multiple kindergartens and thousands of children.
+
+![width:600px](mondey.png)
