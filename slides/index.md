@@ -72,7 +72,7 @@ Then questions / comments / discussion.
 - *Description:* Establish a hub for structure prediction of biomolecules
 - *Developer time:* 15/36 months
 - *People:* Christine, Inga, Johannes, Rebecca Wade (HITS)
-- *Techstack:* Python 
+- *Techstack:* Python
 - *Topic:* HPC infrastructure access, consultation, training
 
 ---
@@ -211,7 +211,7 @@ Left: not optimized, Right: optimized
 
 - *Project type:* Open Call, former small scale
 - *Description:* Microscopy image analysis pipeline
-- *Developer time:* 2 PM + 
+- *Developer time:* 2 PM +
 - *People:* Christine, Edwin, Kai, Tomáš (CZ)
 - *Techstack:* Python / Jupyter Notebooks
 - *Topic:* Python packaging, best practices, reproducibility
@@ -219,11 +219,11 @@ Left: not optimized, Right: optimized
 ---
 
 # ACID
-current status: 
+current status:
 - pipeline as a series of Jupyter notebooks
 - python modules exists
 - no testing
-- limited documentation 
+- limited documentation
 
 goals:
 - introduce testing on pipeline level
@@ -239,7 +239,7 @@ goals:
 - *Description:* Build knowledge graphs from unstructured and inhomogeneous omics data
 - *Developer time:* ~25 (22) + 12 (6) PM
 - *People:* Edwin, James, Inga
-- *Techstack:* Python / React / MCP 
+- *Techstack:* Python / React / MCP
 - *Topic:* Research Software Infrastucture for different domains
 
 ---
@@ -249,14 +249,14 @@ goals:
 ![bg right:45% contain](bcr.png)
 
 - BioCypher adapter: A piece of code + configuration files + schema + ontology that makes your data ingestable for BioCypher, to turn it into a knowledge graph
-- Registry: 
+- Registry:
   - Register existing adapters and allow re-use
   - Croissant + BioSchema metadata for data + adapter
   - Make it easier for users to build their own adapter: Agentic Workspace (MCP + Chat + File Editor)
 
 ---
 
-# TRAIN 
+# TRAIN
 
 - *Project type:* Open Call
 - *Description:* Make it easier for researchers and students to use the TRAIN hydrological model (written in Fortran), prepare model for publication
@@ -277,7 +277,7 @@ goals:
 
 ---
 
-# heiplanet-platform 
+# heiplanet-platform
 
 - *Project type:* Funded
 - *Description:* Web interface to show climate-health model predictions for models developed in the Rockloev group
@@ -288,7 +288,7 @@ goals:
 
 ---
 
-# heiplanet-platform 
+# heiplanet-platform
 
 <style scoped>
 .image-row {
@@ -433,4 +433,23 @@ goals:
 </div>
 
 - Potential follow-ups: a DFG-funded project and collaboration with the Staatsbibliothek zu Berlin (SBB)
+---
 
+# Galaxy-Spectrum-Classification (a.k.a. Zinchenko) project
+
+- *Project type:* Open Call (2026)
+- *Description:* An open-source machine learning system for classifying the energy source for the ionization of gas in far-away galaxies
+- *Developer time:* 1 PM
+- *People:*  Harald
+- *Techstack:* Python, scikit-learn, pytorch
+- *Topic:* Feature development
+
+---
+
+# Galaxy-Spectrum-Classification (a.k.a. Zinchenko) project
+- Goal: Build and evaluate ML model for classifying  classifying the energy source for the ionization of gas in far-away galaxies, plus uncertainty quantification and evaluation.
+- Problem has been explored, but not for the parameter region we are interested in
+
+![width:900px](zinchenko_bpt.png)
+
+---
