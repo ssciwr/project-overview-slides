@@ -191,6 +191,22 @@ Left: not optimized, Right: optimized
 
 ---
 
+# PanSeg (formerly PlantSeg)
+
+- *Project type:* Externally funded
+- *Description:* Segmentation of plant images into cells
+- *Developer time:* 50% of Kai
+- *People:* Kai
+- *Techstack:* Python, PyTorch ML models, Napari GUI, Dask
+- *Topic:* Feature development, maintenance
+
+---
+
+# PanSeg
+![width:1000px](panseg-1.png)
+
+---
+
 # ACID
 
 - *Project type:* Open Call, former small scale
