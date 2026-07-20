@@ -84,7 +84,7 @@ Then questions / comments / discussion.
 <style scoped>
 .image-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 35fr 65fr;
   gap: 12px;
   margin-top: 4px;
   align-items: center;
@@ -126,6 +126,25 @@ Then questions / comments / discussion.
     - AlphaFold mapping
 
 - MCB course, HD-MA symposium, science slam, ELIXIR TTT
+
+---
+# bwRSE4HPC
+
+- *Project type:* Collaboration with KIT
+- *Description:* RSE support for HPC projects in academic institutions in Baden-Württemberg
+- *People:* Kai (RSE 50%), Thomas (RSE 100%, soon maybe 50%), Dimitrii (RSE, ?), Tommaso (RSE, ?), Dominic (Lead) Inga (Lead backup) + KIT: Glen, Tim, Marcel, Jasmin + others
+- *Topic:* Any
+---
+
+# bwRSE4HPC: Finished projects
+![bg right:35% contain](bwrse4hpc-map.png)
+
+- **Kimmdy** (Kai): Kinematic Monte Carlo code, developed for molecular dynamic
+- **genomicrelatedness** (Thomas): Nextflow pipeline for extracting genomic relatedness from genetic samples
+- **M++/Ginkgo** (Tim, Marcel): Integrating linear algebra library in existing FE solver
+- **Organelle morphology** (Kai, Tim): Analyze volumetric electron microscopy images, in particular, images of cells.
+- **eCoSim** (Glen): Co-simulation of power grids at scales from single houses to whole cities
+- **Some others** (KIT)
 
 ---
 # ndtbl
@@ -207,6 +226,22 @@ Left: not optimized, Right: optimized
 - Automated analysis and change quantification of time series of point clouds
 - Quantitatively understanding geomorphological processes
 ![width:550px](py4dgeo-1.png)
+
+---
+
+# PanSeg (formerly PlantSeg)
+
+- *Project type:* Externally funded
+- *Description:* Segmentation of plant images into cells
+- *Developer time:* 50% of Kai
+- *People:* Kai
+- *Techstack:* Python, PyTorch ML models, Napari GUI, Dask
+- *Topic:* Feature development, maintenance
+
+---
+
+# PanSeg
+![width:1000px](panseg-1.png)
 
 ---
 
@@ -433,5 +468,23 @@ goals:
 </div>
 
 - Potential follow-ups: a DFG-funded project and collaboration with the Staatsbibliothek zu Berlin (SBB)
+---
 
+# Galaxy-Spectrum-Classification (a.k.a. Zinchenko) project
 
+- *Project type:* Open Call (2026)
+- *Description:* An open-source machine learning system for classifying the energy source for the ionization of gas in far-away galaxies
+- *Developer time:* 1 PM
+- *People:*  Harald
+- *Techstack:* Python, scikit-learn, pytorch
+- *Topic:* Feature development
+
+---
+
+# Galaxy-Spectrum-Classification (a.k.a. Zinchenko) project
+- Goal: Build and evaluate ML model for classifying  classifying the energy source for the ionization of gas in far-away galaxies, plus uncertainty quantification and evaluation.
+- Problem has been explored, but not for the parameter region we are interested in
+
+![width:900px](zinchenko_bpt.png)
+
+---
