@@ -65,6 +65,22 @@ Then questions / comments / discussion.
 
 ---
 
+# SENTINEL-RAT (aka. Smart-Rodent)
+
+- *Project type:* Funded
+- *Description:* Rodent and predator (peacock / snake) detection from RGB and thermal cameras for leptospirosis risk in Sri Lanka
+- *Developer time:* 4 PM / 1 year / etc
+- *People:* Inga, Harald, James, Tuyen
+- *Techstack:* R / Python / ML (YOLO26) / DB (TBD.)
+- *Topic:* Feature development
+
+---
+
+# SENTINEL-RAT system overview
+
+![](sentinel-rat-sys-overview.png)
+
+---
 
 # Bio-Structure Hub
 
@@ -368,9 +384,6 @@ goals:
 - *Developer time:* 5 PM
 - *People:* Dominic, Tuyen, Harald
 - *Techstack:* Python / C++ / VLMs
-- *Topic:* Feature development
-
----
 
 # Current pipeline and potential follow-ups
 - Current pipeline:
@@ -398,4 +411,5 @@ goals:
 </div>
 
 - Potential follow-ups: a DFG-funded project and collaboration with the Staatsbibliothek zu Berlin (SBB)
+
 
