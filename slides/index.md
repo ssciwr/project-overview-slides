@@ -490,3 +490,25 @@ goals:
 ![width:900px](zinchenko_bpt.png)
 
 ---
+
+# COSMOS
+
+- *Project type:* Funded
+- *Description:* Optimization and refactoring of pipeline for astrophysical data analysis
+- *Developer time:* 3 year
+- *People:* Yiꝗing / Tommaso
+- *Techstack:* Python / JAX / numba
+- *Topic:* Performance engineering
+
+---
+
+# COSMOS
+
+Currently working on **fuzzycat** (auth: William H. Oliver), an algorithm for fuzzy clusters detection
+from series of clusterings on point-based data:
+- optimizing existing routines through kernels simplification (for better JIT), and reduced memory allocations;
+- use of approximated algorithm for Jaccard indexes calculation (PyNNDescent library).
+
+![width:600px, height:200px](fuzzycat_explained.png)
+
+*[images taken from fuzzycat official documentation at https://fuzzycat.readthedocs.io/en/latest/intro.html]*
