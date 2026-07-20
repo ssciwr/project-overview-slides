@@ -82,13 +82,41 @@ Then questions / comments / discussion.
 
 ---
 
+# SENTINEL-RAT Machine learning system
+- Task: detect rodent/snake/bird species based on rgb camera images (and possibly thermal images)
+- Models: YOLO26-detect (ultralytics), Speciesnet (Google), thermal?
+- Difficulties: No rodent datasets for this use case, citizen scientists dataset highly biased wrt species
+
+<style scoped>
+.image-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.image-row img {
+  width: 90%;
+  height: 460px;
+  object-fit: contain;
+}
+</style>
+
+<div class="image-row">
+  <img src="sentinel-rat-predictions.jpg" alt="Predictions">
+  <img src="sentinel-rat-confusion-matrix.png" alt="Confusion matrix">
+</div>
+
+---
+
 # Bio-Structure Hub
 
 - *Project type:* Externally Funded (KTS)
 - *Description:* Establish a hub for structure prediction of biomolecules
 - *Developer time:* 15/36 months
 - *People:* Christine, Inga, Johannes, Rebecca Wade (HITS)
-- *Techstack:* Python 
+- *Techstack:* Python
 - *Topic:* HPC infrastructure access, consultation, training
 
 ---
@@ -192,7 +220,7 @@ Left: not optimized, Right: optimized
 
 - *Project type:* Open Call, former small scale
 - *Description:* Microscopy image analysis pipeline
-- *Developer time:* 2 PM + 
+- *Developer time:* 2 PM +
 - *People:* Christine, Edwin, Kai, Tomáš (CZ)
 - *Techstack:* Python / Jupyter Notebooks
 - *Topic:* Python packaging, best practices, reproducibility
@@ -200,11 +228,11 @@ Left: not optimized, Right: optimized
 ---
 
 # ACID
-current status: 
+current status:
 - pipeline as a series of Jupyter notebooks
 - python modules exists
 - no testing
-- limited documentation 
+- limited documentation
 
 goals:
 - introduce testing on pipeline level
@@ -220,7 +248,7 @@ goals:
 - *Description:* Build knowledge graphs from unstructured and inhomogeneous omics data
 - *Developer time:* ~25 (22) + 12 (6) PM
 - *People:* Edwin, James, Inga
-- *Techstack:* Python / React / MCP 
+- *Techstack:* Python / React / MCP
 - *Topic:* Research Software Infrastucture for different domains
 
 ---
@@ -230,14 +258,14 @@ goals:
 ![bg right:45% contain](bcr.png)
 
 - BioCypher adapter: A piece of code + configuration files + schema + ontology that makes your data ingestable for BioCypher, to turn it into a knowledge graph
-- Registry: 
+- Registry:
   - Register existing adapters and allow re-use
   - Croissant + BioSchema metadata for data + adapter
   - Make it easier for users to build their own adapter: Agentic Workspace (MCP + Chat + File Editor)
 
 ---
 
-# TRAIN 
+# TRAIN
 
 - *Project type:* Open Call
 - *Description:* Make it easier for researchers and students to use the TRAIN hydrological model (written in Fortran), prepare model for publication
@@ -258,7 +286,7 @@ goals:
 
 ---
 
-# heiplanet-platform 
+# heiplanet-platform
 
 - *Project type:* Funded
 - *Description:* Web interface to show climate-health model predictions for models developed in the Rockloev group
@@ -269,7 +297,7 @@ goals:
 
 ---
 
-# heiplanet-platform 
+# heiplanet-platform
 
 <style scoped>
 .image-row {
