@@ -357,8 +357,8 @@ goals:
 - *Description:* RAG system for digital papyrology
 - *Developer time:* 4 PM
 - *People:*
-  * SSC: Dominic, Harald, Sara (Prague)
-  * Papyrology: Holger Essler, James Cowey, Carmen Lanz
+  - SSC: Dominic, Harald, Sara (Prague)
+  - Papyrology: Holger Essler, James Cowey, Carmen Lanz
 - *Techstack:* Python / Web / PostGres / langchain
 - *Topic:* Retrieval Augemented Generation
 
@@ -395,9 +395,9 @@ goals:
 - *Description:* Nation-wide RSE Support
 - *Developer time:* 30 PM
 - *People:*
-  * SSC PI: Dominic
-  * Other PIs: Jan Linxweiler, Robert Speck, Mustafa Dogan
-  * potentially all SSC RSES
+  - SSC PI: Dominic
+  - Other PIs: Jan Linxweiler, Robert Speck, Mustafa Dogan
+  - potentially all SSC RSES
 - *Techstack:* all of them
 
 ---
@@ -441,6 +441,8 @@ goals:
 - *Developer time:* 5 PM
 - *People:* Dominic, Tuyen, Harald
 - *Techstack:* Python / C++ / VLMs
+
+---
 
 # Current pipeline and potential follow-ups
 - Current pipeline:
