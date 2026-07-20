@@ -76,23 +76,17 @@ Then questions / comments / discussion.
 
 ---
 
-# SENTINEL-RAT system overview
-
-![](sentinel-rat-sys-overview.png)
-
----
-
-# SENTINEL-RAT Machine learning system
-- Task: detect rodent/snake/bird species based on rgb camera images (and possibly thermal images)
-- Models: YOLO26-detect (ultralytics), Speciesnet (Google), thermal?
+# SENTINEL-RAT Architecture
+- Task: Build camera-trap based surveilance system to detect rodent/snake/bird species based on rgb camera images (and possibly thermal images)
+- ML Models: YOLO26-detect (ultralytics), Speciesnet (Google), thermal image integration?
 - Difficulties: No rodent datasets for this use case, citizen scientists dataset highly biased wrt species
 
 <style scoped>
 .image-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  margin-top: 32px;
+  gap: 12px;
+  margin-top: 4px;
   align-items: center;
 }
 
@@ -105,7 +99,7 @@ Then questions / comments / discussion.
 
 <div class="image-row">
   <img src="sentinel-rat-predictions.jpg" alt="Predictions">
-  <img src="sentinel-rat-confusion-matrix.png" alt="Confusion matrix">
+  <img src="sentinel-rat-sys-overview.png" alt="System overview">
 </div>
 
 ---
