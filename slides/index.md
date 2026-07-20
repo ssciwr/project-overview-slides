@@ -65,6 +65,44 @@ Then questions / comments / discussion.
 
 ---
 
+# SENTINEL-RAT (aka. Smart-Rodent)
+
+- *Project type:* Funded
+- *Description:* Rodent and predator (peacock / snake) detection from RGB and thermal cameras for leptospirosis risk in Sri Lanka
+- *Developer time:* 4 PM / 1 year / etc
+- *People:* Inga, Harald, James, Tuyen
+- *Techstack:* R / Python / ML (YOLO26) / DB (TBD.)
+- *Topic:* Feature development
+
+---
+
+# SENTINEL-RAT Architecture
+- Task: Build camera-trap based surveilance system to detect rodent/snake/bird species based on rgb camera images (and possibly thermal images)
+- ML Models: YOLO26-detect (ultralytics), Speciesnet (Google), thermal image integration?
+- Difficulties: No rodent datasets for this use case, citizen scientists dataset highly biased wrt species
+
+<style scoped>
+.image-row {
+  display: grid;
+  grid-template-columns: 35fr 65fr;
+  gap: 12px;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.image-row img {
+  width: 90%;
+  height: 460px;
+  object-fit: contain;
+}
+</style>
+
+<div class="image-row">
+  <img src="sentinel-rat-predictions.jpg" alt="Predictions">
+  <img src="sentinel-rat-sys-overview.png" alt="System overview">
+</div>
+
+---
 
 # Bio-Structure Hub
 
@@ -403,9 +441,6 @@ goals:
 - *Developer time:* 5 PM
 - *People:* Dominic, Tuyen, Harald
 - *Techstack:* Python / C++ / VLMs
-- *Topic:* Feature development
-
----
 
 # Current pipeline and potential follow-ups
 - Current pipeline:
