@@ -531,3 +531,22 @@ from series of clusterings on point-based data:
 Updating feedback algorithms and other small features on [mondey.de](https://mondey.de), before the website is used in a study starting in August involving multiple kindergartens and thousands of children.
 
 ![width:600px](mondey.png)
+
+---
+
+# AMMICO
+
+- *Project type:* Open call (Finished in the beginning of 2026)
+- *Description:* AI-based Media and Misinformation Content Analysis Tool
+- *Developer time:* 3 PM
+- *People:* Inga, Yasamin, Dmitrii
+- *Techstack:* Python / ML
+- *Topic:* Feature development
+
+---
+
+# AMMICO
+
+Video (with audio support for a deeper context) and Image Summarization and VQA were implemented, as well as multimodal search module.
+
+![width:900px](ammico.png)
