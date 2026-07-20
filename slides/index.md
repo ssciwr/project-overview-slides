@@ -531,3 +531,23 @@ from series of clusterings on point-based data:
 Updating feedback algorithms and other small features on [mondey.de](https://mondey.de), before the website is used in a study starting in August involving multiple kindergartens and thousands of children.
 
 ![width:600px](mondey.png)
+
+---
+
+# Helios++
+
+- *Project type:* Externally Funded (2024-2027)
+- *Description:* A  package for simulation of terrestrial, mobile and airborne laser scanning surveys
+- *Developer time:* 6 PM / year for 3 years
+- *People:* Dominic, Thomas, Dmitrii
+- *Techstack:* Python / C++ / pybind11
+- *Topic:* System Architecture / API Design, Feature development 
+
+---
+
+# Helios++
+
+Overall, we've implemented most of the intended functionality (and added a lot more on top of that).
+There are still a few tasks left to tackle before the release.
+
+![width:700px](helios_2026.png)
