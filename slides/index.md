@@ -294,6 +294,14 @@ goals:
 
 ---
 
+<!--
+_backgroundImage: 'url("biocypher2.png")'
+_backgroundSize: contain
+_backgroundPosition: center bottom 5%
+-->
+
+---
+
 # TRAIN
 
 - *Project type:* Open Call
@@ -541,7 +549,7 @@ Updating feedback algorithms and other small features on [mondey.de](https://mon
 - *Developer time:* 6 PM / year for 3 years
 - *People:* Dominic, Thomas, Dmitrii
 - *Techstack:* Python / C++ / pybind11
-- *Topic:* System Architecture / API Design, Feature development 
+- *Topic:* System Architecture / API Design, Feature development
 
 ---
 
