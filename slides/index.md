@@ -294,6 +294,14 @@ goals:
 
 ---
 
+<!--
+_backgroundImage: 'url("biocypher2.png")'
+_backgroundSize: contain
+_backgroundPosition: center bottom 5%
+-->
+
+---
+
 # TRAIN
 
 - *Project type:* Open Call
